@@ -1,0 +1,569 @@
+/* General*/
+html,
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexColumnAround {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flexColumnBetween {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.bold_text {
+  font-weight: bold;
+}
+.linkCard {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.margleftright {
+  margin: 0 2% 0 2%;
+}
+/* Nav */
+.sizeNav {
+  height: auto;
+}
+.logo_reservia {
+  width: 120px;
+  height: 50px;
+  margin-bottom: 7px;
+}
+
+.sizeLinks {
+  width: 100%;
+}
+.sizeLink12 {
+  margin-left: 60%;
+}
+.sizeLink {
+  width: 140px;
+  height: 99px;
+}
+.colorBlue {
+  color: #0065fc;
+  text-decoration: none;
+}
+.colorLightBlue {
+  color: #deebff;
+  text-decoration: none;
+}
+
+.colorGrey {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.colorBlack {
+  color: black;
+  text-decoration: none;
+}
+
+.borderNav {
+  border-top: 1px solid transparent;
+}
+.borderNav:hover {
+  border-top: 1px solid #0065fc;
+  cursor: pointer;
+}
+.borderNav:hover > a {
+  color: #0065fc;
+}
+/* Header */
+.desktopNone {
+  display: none;
+}
+.borderSearch {
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px solid #f2f2f2;
+}
+.search {
+  height: 50px;
+  width: 230px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+.iconMap {
+  height: 50px;
+  width: 50px;
+  background-color: #f2f2f2;
+  border-radius: 10px 0 0 10px;
+}
+.buttonSearch {
+  height: 50px;
+  width: 120px;
+  background-color: #0065fc;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+.buttonSearch:hover {
+  color: #0065fc;
+  background-color: #f2f2f2;
+}
+/* Filtres */
+
+.filtre {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.margFiltreTitle {
+  margin-right: 20px;
+}
+.filtreTextIcons {
+  border: 3px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.filtreTextIcons:hover {
+  background-color: #f2f2f2;
+}
+.filtreTextIcons:hover > .filtreText {
+  color: #0065fc;
+}
+.filtreTextIcons:hover > .filtreIcons {
+  color: white;
+  background-color: #0065fc;
+}
+.filtreIcons {
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  margin-left: -2px;
+  color: #0065fc;
+  background-color: #deebff;
+}
+.filtreText {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 25px 25px 0;
+}
+/* Info */
+
+.info {
+  display: flex;
+  align-items: center;
+}
+.parentIcon {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+/* Hebergements */
+
+.sizeHebergements {
+  flex: 2;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+.sizePopulaires {
+  flex: 1;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+.hebergementTitle {
+  padding-top: 20px;
+}
+.blockHebergements {
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.block1 {
+  margin-bottom: 10px;
+}
+.block2 {
+  margin-top: 10px;
+}
+.cardHebergements {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+.cardHebergements:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.cardDetailsHebergements {
+  width: 90%;
+}
+
+.imgHebergements {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+/* Populaires */
+
+.blockPopulaires {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cardPopulaires {
+  background-color: white;
+  height: auto;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px;
+}
+.cardPopulaires:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.blockPopulaires12 {
+  margin-bottom: 20px;
+}
+.cardDetailsPopulaires {
+  width: 60%;
+  padding-left: 5%;
+}
+.populaireAlign {
+  display: flex;
+  justify-content: space-between;
+}
+.imgPopulaires {
+  background-image: url("/img/hebergements/4_small/hotel_le_soleil_du_matin.jpg");
+  width: 35%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+}
+/* Activités*/
+
+.Activites {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.blockActivites {
+  width: 100%;
+  height: 600px;
+}
+.blockActivitesSmall {
+  width: 23%;
+  height: 600px;
+}
+/* reglage block*/
+.cardActivites {
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cardActivites:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.cardActivitesSmall {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cardActivitesSmall:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+/* fin reglage block*/
+.ActivitesTitle {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
+}
+.imgActitvitesBig {
+  width: 100%;
+  height: 530px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+.imgActitvitesMedium {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+.imgActitvitesSmall {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+/* footer */
+.footer {
+  height: 300px;
+  background-color: #f2f2f2;
+}
+.tailleblockFooter {
+  height: 150px;
+}
+.margblockFoot1 {
+  margin-left: 5%;
+}
+.margblockFoot3 {
+  margin-right: 15%;
+}
+.linkDecoration {
+  text-decoration: none;
+  color: black;
+}
+.linkFoot {
+  height: 30px;
+}
+/* responsive */
+@media screen and (max-width: 1300px) {
+  .sizeLink12 {
+    margin-left: 35%;
+  }
+  .cardDetailsHebergements {
+    min-height: 150px;
+  }
+  .sizeHebergements {
+    min-height: auto;
+    padding: 3% 2% 5% 2%;
+  }
+  .sizePopulaires {
+    min-height: auto;
+    padding: 3% 2% 5% 2%;
+  }
+  .tabletteSize_Title {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 990px) {
+  .mobileFilterWrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .filtreTextIcons {
+    margin-bottom: 20px;
+  }
+  #hebergements {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .blockPopulaires {
+    flex: none;
+    width: 90%;
+    margin-left: 0;
+    padding: 5%;
+  }
+  .blockHebergements {
+    flex: none;
+    width: 90%;
+    margin-top: 50px;
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .sizeLinks {
+    width: 90%;
+  }
+  .sizeLink12 {
+    margin-left: 20%;
+  }
+
+  .blockHebergements {
+    height: auto;
+  }
+  .block1 {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .block2 {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .cardHebergements {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .cardDetailsHebergements {
+    min-height: auto;
+  }
+  .blockActivites {
+    flex-direction: column;
+    height: auto;
+  }
+  .cardActivites {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .blockActivitesSmall {
+    width: 100%;
+    height: auto;
+  }
+  .cardActivitesSmall {
+    margin-bottom: 50px;
+  }
+  .imgActitvitesBig,
+  .imgActitvitesMedium,
+  .imgActitvitesSmall {
+    height: 200px;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding-left: 30px;
+  }
+  .margblockFoot1 {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sizeNav {
+    margin-top: 5%;
+  }
+  .sizeLink12 {
+    order: 1;
+    width: 100%;
+    margin-left: 0;
+  }
+  .sizeLinkMobile {
+    width: 50%;
+    border-top: 0;
+    border-bottom: 5px;
+    border-bottom: 5px solid #f2f2f2;
+  }
+  .sizeLink {
+    flex-direction: row;
+    height: 60px;
+  }
+  .sizeLinks {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .sizeLinkMobile:hover {
+    border-top: 0;
+    border-bottom: 5px solid #0065fc;
+  }
+  .mobileh1 {
+    font-size: x-large;
+  }
+  .search {
+    width: 200px;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+  }
+  .borderSearch {
+    width: auto;
+    border: none;
+  }
+  .buttonSearch {
+    width: 50px;
+    border-radius: 15px;
+  }
+  .desktopNone {
+    display: block;
+  }
+  .mobileNone {
+    display: none;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .mobileMargFiltre {
+    padding-left: 5%;
+  }
+  .mobileEconomiques {
+    margin-right: 5px;
+  }
+  .mobileFamiliales {
+    margin-right: 0;
+  }
+  .filtre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .filtreText {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .info {
+    padding-left: 5%;
+  }
+  .blockPopulaires {
+    border-radius: 0;
+  }
+  .blockHebergements {
+    background: #fff;
+  }
+  .mobileTitle {
+    padding-left: 5%;
+  }
+  .blockActivites {
+    padding: 5%;
+    width: 90%;
+  }
+  .Activites {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .blockHebergements {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 990px) {
+  .margleftright {
+    margin: 0 2% 0 2%;
+  }
+  .footer {
+    margin-top: 5%;
+  }
+  .sizePopulaires {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .populaireAlign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
