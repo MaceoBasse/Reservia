@@ -30,5 +30,5 @@
 - CSS3
 - Flexbox
 
-### LIENS GITHUB PAGES
-https://maceobasse.github.io/OC_Reservia_P2/
+### LIENS 
+https://p2-reservia.netlify.app/
