@@ -219,12 +219,12 @@ ul li a:hover {
 
 /*icone i information*/
 
-#inf-icone {
+#info {
   display: flex;
   margin-top: 15px;
 }
 
-#inf-icone i {
+#info i {
   color: #0065fc;
   width: 25px;
   height: 25px;
@@ -232,18 +232,18 @@ ul li a:hover {
   border-radius: 12.5px;
 }
 
-#inf-icone div {
+#info div {
   position: relative;
 }
 
-#inf-icone i::before {
+#info i::before {
   font-size: 12px;
   left: 10.25px;
   top: 6.5px;
   position: absolute;
 }
 
-#inf-icone p {
+#info p {
   padding: 5px 0 0 10px;
 }
 
@@ -312,12 +312,12 @@ ul li a:hover {
 
 /* hebergement marseille */
 
-#partie-hebergements {
+#block-hebergements {
   background-color: #f2f2f281;
   padding: 30px 20px 30px 20px;
 }
 
-#partie-hebergements article {
+#block-hebergements article {
   background-color: white;
   max-width: 400px;
   margin: auto;
@@ -654,7 +654,7 @@ footer h4 {
 
   /*hebergements*/
 
-  #partie-hebergements {
+  #block-hebergements {
     width: 66%;
     border-radius: 25px;
     padding: 2%;
