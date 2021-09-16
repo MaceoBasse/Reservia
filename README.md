@@ -31,4 +31,4 @@
 - Flexbox
 
 ### LIENS 
-<a href="https://p2-reservia.netlify.app/" target="_blank">Netlify</a>
+https://p2-reservia.netlify.app/
