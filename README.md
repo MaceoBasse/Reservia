@@ -31,4 +31,4 @@
 - Flexbox
 
 ### LIENS 
-https://p2-reservia.netlify.app/
+https://maceobasse.github.io/OC_Reservia_P2/
