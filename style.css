@@ -516,7 +516,7 @@ footer h4 {
 
 /*version desktop*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 123px) {
   header,
   section {
     padding: 0 2%;
